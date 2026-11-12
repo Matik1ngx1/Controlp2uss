@@ -1,7 +1,7 @@
 import os
 import streamlit as st
  
-LOGO = "descarga.jpg"  # guarda el logo en la misma carpeta que app.py
+LOGO = "descarga.htm"  # guarda el logo en la misma carpeta que app.py
  
 # ---------- BARRA LATERAL ----------
 st.sidebar.title("Mi primera barra lateral de Streamlit")
