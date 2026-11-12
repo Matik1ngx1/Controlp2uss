@@ -2,7 +2,7 @@ import os
  
 import streamlit as st
  
-LOGO = "signin.htm"  # debe estar en la misma carpeta que app.py
+LOGO = "descarga.jpg"  # debe estar en la misma carpeta que app.py
  
  
 def mostrar_logo(contenedor):
