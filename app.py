@@ -1,4 +1,5 @@
 import os
+ 
 import streamlit as st
  
 LOGO = "signin.htm"  # guarda el logo en la misma carpeta que app.py
@@ -9,7 +10,7 @@ st.sidebar.header("¡Hola, Barra Lateral!")
 st.sidebar.text("Esto es una barra lateral")
  
 if os.path.exists(LOGO):
-    st.sidebar.image(LOGO):
+    st.sidebar.image(LOGO)
 else:
     st.sidebar.warning(f"No se encontró {LOGO}")
  
@@ -24,7 +25,7 @@ st.header("¡Hola, Streamlit!")
 st.text("Esta es una aplicación simple")
  
 if os.path.exists(LOGO):
-    st.image(LOGO):
+    st.image(LOGO)
 else:
     st.warning(f"No se encontró {LOGO}")
  
@@ -32,3 +33,4 @@ st.button("Haz clic")
  
 texto = st.text_input("Escribe algo:")
 st.write("Escribiste:", texto)
+ 
